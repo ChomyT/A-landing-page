@@ -1,0 +1,154 @@
+<html>
+<head>
+<style>
+body{
+  font: Roboto;
+}
+
+.container{
+  display: flex;
+  flex-direction:row;
+  background-color: whitesmoke;
+  max-width: 50rem; 
+  margin: auto;
+  height: 100%;
+  align-items: center;
+  
+}
+.text-section{
+  width: 50%;
+}
+h1{
+  font-size: 20px;
+  color: rgb(14, 14, 58);
+  margin: 5px auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 2em;
+}
+.info:not(:last-of-type){
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  margin: 10px;
+ 
+  
+}
+.info:last-of-type{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  margin: 10px;  
+}
+.image-holder{
+  margin: 10px;
+  padding: 10px;
+  max-width: 40%;
+  
+  
+   
+}
+.body-text{
+  color: black;
+  margin-left: 5px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.image-section{
+  margin: 10px;
+  
+}
+.text-section{
+ margin: 5px;
+}
+.info-icons{
+  margin: 2px;
+  vertical-align: middle;
+  margin-bottom: 0.5em;
+  
+
+}
+span{
+  margin-top: 0
+}
+.icon-text{
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+
+label{
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+  margin: 10px;
+}
+
+input{
+  padding: 10px;
+  margin: 10px;
+}
+button{
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+  background-color: rgb(14, 14, 58);
+  color: White;
+}
+
+
+</style>
+</head>
+<body>
+<div class='container'>
+    
+      <div class='text-section'>
+    <div class='body-text'>
+      <h1>Stay updated</h1>
+      <span>Join 60,000+ product managers receiving monthly updates on:</span>
+    </div>
+    
+    
+      <div class='info'>
+      <div class='info-icons'><img src={Iconlist} alt='a'/></div>
+      <div class='icon-text'>Product discovery and building what matters</div>
+             </div>
+    
+    
+    <div class='info'>
+    <div class='info-icons'><img src={Iconlist} alt='a'/></div>
+    <div class="icon-text">Measuring to ensure accurate success</div>
+      
+    </div>
+        
+    <div class='info'>
+    <div class='info-icons'><img src={Iconlist} alt='a'/></div>
+    <div class="icon-text" id='icon-text2'>And much more</div>
+      
+    </div>
+        
+    <form>
+      <label for='email'>Email Address</label>
+      <input type='email' name='email' placeholder='gmail@company.com'></input>
+      <button>Signup</button>
+    </form>
+    </div>
+    
+   
+    <div className='image-holder'>
+    <img src={Illustration} width='100%' alt='image'/>
+    </div>
+           
+    </div>
+    
+  </body>
+  </html>
+    
+
+
+

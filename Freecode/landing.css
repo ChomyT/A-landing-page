@@ -1,0 +1,203 @@
+
+
+.nav-bar{
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0px;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  background-color: black;
+  height: 60px;
+  left: 0px;
+ 
+}
+.main{
+  width: 100%;
+  padding-top: 100px;
+  margin-top: 15px;
+  
+}
+.nav-bar  a{
+  display: block;
+  float: right;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  color: yellow;
+  
+}
+li{
+  list-style: none;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav > ul{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+  padding-inline-start: 0px;
+  margin-block: 0px;/*setting the margin at the beginning of the menu item*/
+  
+}
+nav > ul > li{
+  color: inherit;
+  margin:0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+body{
+  background-color:rgb(197, 209, 209);
+  background-image: url(Designerlife-.png);
+  position: relative;
+}
+.hero-title{
+  color: black;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  
+}
+.form{
+  display: block;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main{
+  width: 100%;
+ 
+}
+input{
+  display:block;
+  align-items: center;
+  margin: 10px auto;
+  
+  }
+  input[type=email]{
+    border: 1px solid black;
+    height: 15px;
+    border-radius: 2px;
+    padding: 10px 50px;
+    width: normal;
+  }
+  input[type=submit]{
+    background-color: yellow;
+    color: balck;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-top: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+     }
+
+     .product-info{
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       
+     }
+     .premium{
+      flex: 33.3%;
+      border: 1px solid black;
+      padding: 20px 10px;
+      text-align: center;
+      margin: 10px auto;
+      width: 70%;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: black;
+      margin-top: 30px;
+     }
+     #how-it-works{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+     }
+     .container-2{
+      flex: 33.3%;
+      margin: 10px auto;
+      height: 200px;
+     }
+     
+     
+     .flex-container{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 100%;
+      justify-content: center;
+      justify-content: space-around;
+      align-content:center;
+     }
+     .female-dress{
+      padding: 
+       }
+
+       .footer-flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        background-color:darkslategrey;
+        top: 0px;
+        left: 0px;
+        margin: 5px auto;
+        color: white;
+       }
+       .flex-item{
+        flex: 25%;
+        padding: 0px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: lighter;
+        font-size: 0.8rem;
+      
+        
+       }
+       .hero-title{
+        color: black;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 2.2rem;
+       }
+       .designer{
+        left-margin: 10px;
+        padding-left: 20px;
+       }
+
+ .fa-facebook
+  {
+    background-color: #3b5998;
+    color: white;
+  }
+  .fa-twitter{
+    background-color:  #3B5998;
+    color: white;
+      }
+  .fa-linkedin{
+    background: #007bb5;
+    color: white;
+      }
+ .fa-instagram {
+   background: #125688;
+   color: white;
+        }
+
+      .fa{
+        padding: 5px;
+        height: 10px;
+        width: 20px;
+        font-size: 10px;
+        text-align: center;
+        text-decoration: none;
+        margin: 0.2px 1px;
+      }
+
+      
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {background:grey;}

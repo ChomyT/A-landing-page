@@ -1,0 +1,97 @@
+
+HOME@DESKTOP-9FOCOM4 MINGW64 ~ (master)
+$ cd desktop
+
+HOME@DESKTOP-9FOCOM4 MINGW64 ~/desktop (master)
+$ cd caard
+bash: cd: caard: No such file or directory
+
+HOME@DESKTOP-9FOCOM4 MINGW64 ~/desktop (master)
+$ cd card
+bash: cd: card: No such file or directory
+
+HOME@DESKTOP-9FOCOM4 MINGW64 ~/desktop (master)
+$ cd reactapp
+bash: cd: reactapp: No such file or directory
+
+HOME@DESKTOP-9FOCOM4 MINGW64 ~/desktop (master)
+$ cd reactcard
+
+HOME@DESKTOP-9FOCOM4 MINGW64 ~/desktop/reactcard (master)
+$ npx create-react-app card
+cd card
+npm start
+
+Creating a new React app in C:\Users\HOME\desktop\reactcard\card.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1441 packages in 5m
+
+241 packages are looking for funding
+  run `npm fund` for details
+
+Installing template dependencies using npm...
+
+added 69 packages, and changed 1 package in 37s
+
+245 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1510 packages in 16s
+
+245 packages are looking for funding
+  run `npm fund` for details
+
+6 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Success! Created card at C:\Users\HOME\desktop\reactcard\card
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd card
+  npm start
+
+Happy hacking!
+
+HOME@DESKTOP-9FOCOM4 MINGW64 ~/desktop/reactcard (master)
+$ cd card
+
+HOME@DESKTOP-9FOCOM4 MINGW64 ~/desktop/reactcard/card (master)
+$ npm start
+
+> card@0.1.0 start
+> react-scripts start
+
+Something is already running on port 3000.
+
+HOME@DESKTOP-9FOCOM4 MINGW64 ~/desktop/reactcard/card (master)
+$ code .
+
+HOME@DESKTOP-9FOCOM4 MINGW64 ~/desktop/reactcard/card (master)
+$ ^C
+
+HOME@D

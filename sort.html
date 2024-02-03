@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <button onclick="myFunction1()">Sort Alphabetically</button>
+  <button onclick="myFunction2()">Sort Numerically</button>
+  <button onclick="myFunction3()">Sort Randomly</button>
+  <button onclick="myArrayMax()">ArrayMax</button>
+  
+  <p id="demo"></p>
+  <script>
+const points = [40, 100, 1, 5, 25, 10];
+
+function myFunction1() {
+  points.sort();
+  document.getElementById("demo").innerHTML = points;
+}
+
+function myFunction2() {
+  points.sort(function(a, b){return a - b});
+  document.getElementById("demo").innerHTML = points;
+}
+function myFunction3(){
+  points.sort(function(a,b){return 0.5 - Math.random()});
+  document.getElementById("demo").innerHTML = points;
+}
+function myArrayMax() {
+  return points.Math.max.apply(null, points);
+  document.getElementById("demo").innerHTML = points;
+}
+    </script>
+  
+</body>
+</html>
